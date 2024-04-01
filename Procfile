@@ -1,1 +1,1 @@
-run: npm run start
+web: npx prisma migrate deploy && yarn start

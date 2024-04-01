@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist",
-    "experimentalDecorators": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "declaration": false,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
-    "noEmitOnError": true,
+    "lib": ["ES2023"],
+    "module": "NodeNext",
+    "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "pretty": true,
+    "rootDir": "src",
+    "skipLibCheck": true,
     "strict": true,
-    "lib": ["ES5", "ES2021"],
-    "target": "esNext"
+    "moduleResolution": "NodeNext",
+    "target": "ESNext"
   },
   "include": ["src/**/*.ts"],
   "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
